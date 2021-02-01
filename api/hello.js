@@ -1,7 +1,7 @@
 import {
   successObj,
   errorObj
-} from '../src/utils/'
+} from '../src/utils.js'
 
 export default (req, res) => {
   const name = req.query.name

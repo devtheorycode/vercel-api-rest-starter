@@ -21,7 +21,7 @@ export function successObj (data) {
  */
 export function errorObj (message) {
   return {
-    status: 'success',
+    status: 'error',
     message
   }
 }
